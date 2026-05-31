@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "IronForge",
+    "slug": "gym-fitness",
+    "version": "1.0.0",
+    "backgroundColor": "#0A0A0A",
+    "primaryColor": "#EF4444",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "IronForge",
+      "description": "AI personal trainer in your pocket",
+      "themeColor": "#DC2626",
+      "lang": "en"
+    },
+    "android": {
+      "package": "com.redsitesoftware.gymFitness"
+    },
+    "ios": {
+      "bundleIdentifier": "com.redsitesoftware.gymFitness"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bbb26e42-1091-49e1-9d7b-7ba6c6704280"
+      }
+    },
+    "owner": "zx10r06",
+    "description": "AI personal trainer in your pocket"
+  }
+}
